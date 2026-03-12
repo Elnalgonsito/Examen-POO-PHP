@@ -10,7 +10,7 @@ try {
     $lista[] = new Alumno("Ana López", "ana.lopez@alumno.com", "1278456");
 
     // Este es el que va a fallar para probar el catch
-    $pruebaFallo = new Alumno("Juan Pérez", "correo-mal", "001122");
+    $pruebaFallo = new Alumno("Juan Pérez", "jaguilar@uabc.edu.mx", "1278457");
 
 } catch (Exception $e) {
     $error = $e->getMessage();
